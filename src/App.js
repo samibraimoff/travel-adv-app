@@ -2,9 +2,9 @@ import React, { Fragment } from 'react';
 
 import { CssBaseline, Grid } from '@material-ui/core';
 
-import Header from './components/header/Header';
-import List from './components/list/List';
-import Map from './components/map/Map';
+import Header from './components/Header/Header';
+import List from './components/List/List';
+import Map from './components/Map/Map';
 
 const App = () => {
   return (
@@ -16,7 +16,6 @@ const App = () => {
         <Grid item xs={12} md={4}>
           <List />
         </Grid>
-
         <Grid item xs={12} md={8}>
           <Map />
         </Grid>
